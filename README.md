@@ -1,0 +1,1 @@
+The official start to my 100 html/css challenge.  The first challenge will be the google homepage.  Idea was from the opening curriculum of the odin project.
