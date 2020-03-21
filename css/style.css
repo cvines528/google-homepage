@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 30px 20px 30px;
+}
+
+.navbar .left-side {
+    display: flex;
+    width: 20%;
+}
+
+.navbar .left-side ul{
+    list-style: none;
+    display: flex;
+}
+.navbar .left-side ul li {
+    margin: 0 10px;
+}
+
+.navbar .right-side {
+    display: flex;
+}
