@@ -1,4 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+
 .navbar {
     display: flex;
     width: 100%;
@@ -39,6 +41,7 @@
 }
 .navbar .right-side ul li{
     margin: 0 10px;
+
 }
 .navbar .right-side ul li a {
     text-decoration: none;
@@ -71,8 +74,8 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
-    left: 35%;
-    margin-top: 30px;
+    left: 32%;
+    margin-top: 25px;
     margin-bottom: 20px;
     width: 35%;
     height: 35px;
@@ -82,7 +85,9 @@ main {
 
 .searchbar i {
     align-self: center;
-    color: lightgray
+    color: lightgray;
+    position: relative;
+    right: 15px;
 }
 
 .searchbar input {
@@ -92,16 +97,61 @@ main {
 }
 
 .searchbar img {
-    width: 30px;
+    display: flex;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    left: 5px;
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
+.buttons {
+    margin-top: 30px;
 }
 
-.footer-links .left-side{
+.buttons button {
+    border: none;
+    background: rgba(228, 227, 227, 0.904);
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+footer {
+    background: rgba(228, 227, 227, 0.904);
+    height: 41px
+}
+footer .footer-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    
+    color: grey;
+    padding-top: 10px;
+}
+
+.footer-links .left-side ul {
+    list-style: none;
     display: flex;
 }
+.footer-links .left-side ul li{
+    margin-left: 20px;
+}
+
+.footer-links .right-side ul{
+    list-style: none;
+    display: flex;
+}
+.footer-links .right-side ul li {
+   margin-right: 20px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
 
