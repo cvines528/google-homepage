@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 20px 30px 20px 30px;
+    margin: 10px 15px;
 }
 
 .navbar .left-side {
@@ -13,11 +13,66 @@
 .navbar .left-side ul{
     list-style: none;
     display: flex;
+    align-self: center;
 }
 .navbar .left-side ul li {
     margin: 0 10px;
 }
 
+.navbar .left-side ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
 .navbar .right-side {
     display: flex;
+    width: 30%;
+    justify-content: flex-end;
 }
+.navbar .right-side ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.navbar .right-side ul li{
+    margin: 0 10px;
+}
+.navbar .right-side ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.navbar .right-side button {
+    display: flex;
+    margin: 5px 40px 10px 10px;
+    background: #4c8bf5;
+    border: none;
+    text-decoration: none;
+    align-self: center;
+    padding: 7px 15px;
+    color: white;
+    font-weight: 700;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    height: 500px;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer-links .left-side{
+    display: flex;
+}
+
